@@ -1,5 +1,7 @@
 # PostCSS Rem To Px
 
+Fork of original repo by tillschander that uses pixel rounding
+
 [PostCSS] plugin to replace all rem values with px values.
 
 [PostCSS]: https://github.com/postcss/postcss

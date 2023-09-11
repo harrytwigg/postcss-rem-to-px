@@ -16,6 +16,9 @@ module.exports = postcss.plugin('postcss-rem-to-px', userOptions => {
             let numericValue = value.match(/(\d*\.*\d+)rem/i)[1]
             let pxValue = numericValue * options.baseSize
 
+            // round to nearest pixel
+            pxValue = Math.round(pxValue * 100) / 100
+
             decl.value = decl.value.replace(value, pxValue + 'px')
           })
         }
