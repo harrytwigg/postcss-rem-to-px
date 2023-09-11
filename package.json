@@ -1,6 +1,7 @@
 {
   "name": "@harrytwigg/postcss-rem-to-px",
   "version": "1.0.1",
+  "private": false,
   "description": "PostCSS plugin to replace all rem values with px values.",
   "keywords": [
     "postcss",
